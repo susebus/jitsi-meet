@@ -168,10 +168,10 @@ $watermarkHeight: 74px;
 /**
  * Welcome page variables.
  */
-$welcomePageDescriptionColor: #fff;
+$welcomePageDescriptionColor: #303030; /* #fff;*/
 $welcomePageFontFamily: inherit;
-$welcomePageBackground: linear-gradient(-90deg, #1251AE 0%, #0074FF 50%, #1251AE 100%);
-$welcomePageTitleColor: #fff;
+$welcomePageBackground: #fff;/*linear-gradient(-90deg, #1251AE 0%, #0074FF 50%, #1251AE 100%);*/
+$welcomePageTitleColor: #003362; /* #fff;*/
 
 $welcomePageHeaderBackground: none;
 $welcomePageHeaderBackgroundSmall: none;

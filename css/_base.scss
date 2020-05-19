@@ -27,7 +27,7 @@ body {
     font-weight: 400;
     overflow: hidden;
     color: $defaultColor;
-    background: $defaultBackground;
+    background: $defaultBackground !important;
     &.filmstrip-only {
         background: transparent;
     }

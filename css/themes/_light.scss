@@ -14,7 +14,7 @@ $sliderThumbBackground: #3572b0;
 /**
 * Buttons
 */
-$buttonBackground: #44A5FF;
+$buttonBackground: #003362; /* #44A5FF;*/
 $buttonHoverBackground: #2c4062;
 $buttonBorder: transparent;
 $buttonHoverBorder: transparent;
@@ -40,7 +40,7 @@ $overlayButtonBg: #0074E0;
 /**
 * Color variables
 **/
-$defaultBackground: #474747;
+$defaultBackground: #fff; /* #474747;*/
 $filmstripOnlyOverlayBg: #000;
 $reloadProgressBarBg: #0074E0;
 
@@ -113,3 +113,19 @@ $selectActiveItemBg: darken($controlBackground, 20%);
  * TODO: Replace by themed component.
  */
 $videoQualityActive: #4C9AFF;
+
+/*overwrite for uibk ci */
+.welcome{
+    background-image: unset;
+    background-color: #fff;
+}
+
+.toolbox-icon .jitsi-icon svg {
+    fill: #f39200;
+}
+/*
+.jitsi-icon svg {
+    fill:#f39200 !important;
+}*/
+
+/*uibk-blue: #003362 */
