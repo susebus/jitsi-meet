@@ -2,7 +2,7 @@
 .*.tmp
 deploy-local.sh
 libs/
-all.css
+##all.css
 *css.map
 .remote-sync.json
 .sync-config.cson
@@ -49,7 +49,7 @@ local.properties
 
 # node.js
 #
-node_modules/
+##node_modules/
 npm-debug.log
 yarn-error.log
 
